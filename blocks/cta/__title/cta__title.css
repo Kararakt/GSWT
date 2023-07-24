@@ -1,0 +1,12 @@
+.cta__title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 140.6%;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .cta__title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,12 @@
+.blog-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 140.6%;
+  margin: 0 0 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-card__title {
+    font-size: 1.25rem;
+  }
+}

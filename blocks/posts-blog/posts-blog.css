@@ -1,0 +1,9 @@
+.posts-blog {
+  padding: 5.5rem 0 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-blog {
+    padding: 2rem 0;
+  }
+}

@@ -1,0 +1,17 @@
+.cta {
+  background-color: #f7941e;
+  padding: 5.0625rem 0 4.3125rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cta {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cta {
+    padding: 1.5rem 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+.posts-blog__author {
+  font-size: 0.875rem;
+  line-height: 140.6%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-blog__author {
+    margin-bottom: 1rem;
+  }
+}

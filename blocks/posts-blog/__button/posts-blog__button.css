@@ -1,0 +1,21 @@
+.posts-blog__button {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  font-size: 1.125rem;
+  line-height: 140.6%;
+  padding: 0;
+  margin-top: auto;
+  cursor: pointer;
+  transition: opacity 0.35s linear;
+}
+
+.posts-blog__button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-blog__button {
+    font-size: 1rem;
+  }
+}

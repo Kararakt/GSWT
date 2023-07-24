@@ -1,0 +1,26 @@
+.posts-blog__cards {
+  max-width: 73.125rem;
+  display: grid;
+  grid-template-columns: repeat(2, 35.625rem);
+  gap: 1.875rem;
+  padding: 2.5rem 0 5rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  .posts-blog__cards {
+    max-width: 51.5rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 25rem);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .posts-blog__cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    margin: 0 1rem;
+    gap: 1rem;
+  }
+}

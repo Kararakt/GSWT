@@ -1,0 +1,12 @@
+.feature__subtitle {
+  font-size: 1.25rem;
+  line-height: 140.6%;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .feature__subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+}

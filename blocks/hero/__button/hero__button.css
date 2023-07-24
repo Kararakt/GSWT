@@ -1,0 +1,25 @@
+.hero__button {
+  height: 3.75rem;
+  width: 12.5rem;
+  background-color: #f7941e;
+  color: #fff;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  border: 1px solid #f7941e;
+  border-radius: 0.3125rem;
+  padding: 0;
+  margin-top: 4.6875rem;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+
+.hero__button:hover {
+  background-color: #fff;
+  color: #f7941e;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__button {
+    margin-top: 1rem;
+  }
+}

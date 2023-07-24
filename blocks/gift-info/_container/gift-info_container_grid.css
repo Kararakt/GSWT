@@ -1,0 +1,12 @@
+.gift-info_container_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+@media screen and (max-width: 767px) {
+  .gift-info_container_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,12 @@
+.posts-blog__container {
+  background-color: #231f20;
+  display: flex;
+  max-width: 73.125rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-blog__container {
+    flex-direction: column;
+  }
+}

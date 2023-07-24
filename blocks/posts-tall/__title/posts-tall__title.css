@@ -1,0 +1,11 @@
+.posts-tall__title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 0 1.4375rem;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-tall__title {
+    font-size: 1.5rem;
+  }
+}

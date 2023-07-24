@@ -1,0 +1,9 @@
+.posts-tall {
+  padding: 6rem 0 8.5625rem;
+}
+
+@media screen and (max-width: 767px) {
+  .posts-tall {
+    padding: 2.5rem 0;
+  }
+}

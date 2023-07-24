@@ -1,0 +1,19 @@
+.hero__content {
+  max-width: 27.063rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero__content {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero__content {
+    margin: 1rem 1rem 0;
+  }
+}

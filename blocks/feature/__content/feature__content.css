@@ -1,0 +1,20 @@
+.feature__content {
+  max-width: 27.563rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .feature__content {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature__content {
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+  }
+}

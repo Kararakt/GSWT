@@ -1,0 +1,22 @@
+.header {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.125rem 0 5rem;
+  min-height: 7.25rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    min-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 1rem 0 1rem;
+    justify-content: space-around;
+  }
+}

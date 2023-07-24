@@ -1,0 +1,38 @@
+.cta__button {
+  height: 3rem;
+  width: 12.5rem;
+  font-size: 1.125rem;
+  line-height: 134.8%;
+  text-transform: uppercase;
+  border-radius: 0.3125rem;
+  border: 1px solid #231f20;
+  padding: 0;
+  transition: all 0.35s linear;
+  cursor: pointer;
+}
+
+.cta__button:first-of-type {
+  background-color: #231f20;
+  color: #fff;
+}
+
+.cta__button:hover:first-of-type {
+  background-color: #fff;
+  color: #231f20;
+}
+
+.cta__button:last-of-type {
+  background-color: transparent;
+  color: #231f20;
+}
+
+.cta__button:hover:last-of-type {
+  background-color: #231f20;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cta__button {
+    width: 11rem;
+  }
+}

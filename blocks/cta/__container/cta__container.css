@@ -1,0 +1,14 @@
+.cta__container {
+  max-width: 60.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .cta__container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

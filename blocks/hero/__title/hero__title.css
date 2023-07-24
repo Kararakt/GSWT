@@ -1,0 +1,18 @@
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0 0 2.25rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}

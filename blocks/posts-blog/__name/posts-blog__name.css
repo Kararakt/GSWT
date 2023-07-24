@@ -1,0 +1,19 @@
+.posts-blog__name {
+  max-width: 30.75rem;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .posts-blog__name {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .posts-blog__name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}

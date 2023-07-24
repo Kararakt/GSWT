@@ -1,0 +1,4 @@
+.posts-blog__image {
+  display: block;
+  object-fit: cover;
+}
